@@ -24,7 +24,7 @@ Dataansvarlig er:
 
 **Jessen Thinkmatic** (CVR 45634248) <span class="tbc">Selskabsform: afventer bekræftelse</span>
 Adresse: <span class="tbc">Afventer bekræftelse</span>, Danmark
-E-mail: **support@physique.app**
+E-mail: **support@jessenthinkmatic.dk**
 
 **Databeskyttelsesrådgiver (DPO):** <span class="tbc">Afventer bekræftelse</span>
 
@@ -219,7 +219,7 @@ Efter GDPR har du ret til:
 - **Tilbagetrækning af samtykke** når som helst under **Indstillinger → Privatliv** (helbredsoplysninger, AI-behandling, statistik, markedsføring, billedtræning). Tilbagetrækning påvirker ikke behandling, der allerede er sket. Trækker du samtykket til helbredsoplysninger tilbage, stopper vi behandlingen, og de tilknyttede funktioner holder op med at virke; vi spørger dig, om du også vil have oplysningerne slettet.
 - Ikke at være genstand for afgørelser, der udelukkende er automatiske, med retsvirkning eller tilsvarende betydelig virkning (sådanne afgørelser træffer vi ikke).
 
-Du kan bruge dine rettigheder via indstillingerne i appen eller ved at skrive til **support@physique.app**. Vi svarer inden for én måned (kan forlænges med to måneder ved komplekse henvendelser – i så fald giver vi besked). Vi kan have brug for at bekræfte din identitet.
+Du kan bruge dine rettigheder via indstillingerne i appen eller ved at skrive til **support@jessenthinkmatic.dk**. Vi svarer inden for én måned (kan forlænges med to måneder ved komplekse henvendelser – i så fald giver vi besked). Vi kan have brug for at bekræfte din identitet.
 
 ### Klage
 Du kan klage til:
@@ -279,4 +279,4 @@ Vi kan opdatere politikken, f.eks. når vi tilføjer funktioner eller leverandø
 ## 17. Kontakt
 
 Jessen Thinkmatic, CVR 45634248 <span class="tbc">Adresse: afventer bekræftelse</span>
-E-mail: **support@physique.app**
+E-mail: **support@jessenthinkmatic.dk**

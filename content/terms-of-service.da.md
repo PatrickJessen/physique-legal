@@ -3,7 +3,7 @@
 **Version:** 1.0
 **Gælder fra:** <span class="tbc">Afventer bekræftelse</span>
 
-Disse vilkår ("Vilkårene") gælder for din brug af PHYSIQUE-appen og tilknyttede tjenester ("PHYSIQUE", "Tjenesten"), som leveres af **Jessen Thinkmatic** <span class="tbc">Selskabsform: afventer bekræftelse</span>, CVR 45634248, <span class="tbc">Adresse: afventer bekræftelse</span>, Danmark ("vi", "os"). Kontakt: **support@physique.app**.
+Disse vilkår ("Vilkårene") gælder for din brug af PHYSIQUE-appen og tilknyttede tjenester ("PHYSIQUE", "Tjenesten"), som leveres af **Jessen Thinkmatic** <span class="tbc">Selskabsform: afventer bekræftelse</span>, CVR 45634248, <span class="tbc">Adresse: afventer bekræftelse</span>, Danmark ("vi", "os"). Kontakt: **support@jessenthinkmatic.dk**.
 
 Når du opretter en konto, accepterer du Vilkårene. Læs også vores **Privatlivspolitik**, **Helbredsforbehold** og **AI-oplysning**, som er en del af Vilkårene.
 
@@ -156,7 +156,7 @@ Du kan til enhver tid stoppe med at bruge PHYSIQUE og slette din konto. Vi kan l
 ## 14. Lovvalg og klager
 
 - Vilkårene er underlagt **dansk ret**. Er du forbruger med bopæl i et andet EU/EØS-land, bevarer du også beskyttelsen i dit lands præceptive forbrugerlovgivning.
-- Kontakt os gerne først på **support@physique.app** – vi vil gerne løse problemet.
+- Kontakt os gerne først på **support@jessenthinkmatic.dk** – vi vil gerne løse problemet.
 - Som forbruger kan du klage til **Forbrugerklagenævnet** via **Nævnenes Hus**, www.naevneneshus.dk, eller få vejledning på www.forbrug.dk.
 - Tvister kan indbringes for de danske domstole; som forbruger kan du også anlægge sag ved domstolene i dit bopælsland, hvor loven tillader det.
 
@@ -170,4 +170,4 @@ Bruger du PHYSIQUE på en Apple-enhed: Vilkårene er indgået mellem dig og Jess
 
 ## 16. Kontakt
 
-Jessen Thinkmatic, CVR 45634248 <span class="tbc">Adresse: afventer bekræftelse</span> – **support@physique.app**
+Jessen Thinkmatic, CVR 45634248 <span class="tbc">Adresse: afventer bekræftelse</span> – **support@jessenthinkmatic.dk**

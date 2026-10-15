@@ -24,7 +24,7 @@ The data controller is:
 
 **Jessen Thinkmatic** (CVR 45634248) <span class="tbc">Legal form: to be confirmed</span>
 Address: <span class="tbc">To be confirmed</span>, Denmark
-Email: **support@physique.app**
+Email: **support@jessenthinkmatic.dk**
 
 **Data protection officer:** <span class="tbc">To be confirmed</span>
 
@@ -219,7 +219,7 @@ Under the GDPR you have the right to:
 - **Withdraw consent** at any time, in **Settings → Privacy** (health data, AI processing, analytics, marketing, photo training). Withdrawal does not affect processing that already took place. If you withdraw health-data consent, we will stop processing that data and the related features will stop working; we will ask you whether you also want the data deleted.
 - Not be subject to solely automated decisions with legal or similarly significant effects (we do not make such decisions).
 
-To exercise your rights, use the in-app settings or email **support@physique.app**. We respond within one month (extendable by two months for complex requests, in which case we will tell you). We may need to verify your identity.
+To exercise your rights, use the in-app settings or email **support@jessenthinkmatic.dk**. We respond within one month (extendable by two months for complex requests, in which case we will tell you). We may need to verify your identity.
 
 ### Complaints
 You can complain to the Danish Data Protection Agency:
@@ -279,4 +279,4 @@ We may update this policy, for example when we add features or providers. We wil
 ## 17. Contact
 
 Jessen Thinkmatic, CVR 45634248 <span class="tbc">Address: to be confirmed</span>
-Email: **support@physique.app**
+Email: **support@jessenthinkmatic.dk**

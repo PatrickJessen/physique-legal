@@ -3,7 +3,7 @@
 **Version:** 1.0
 **Effective date:** <span class="tbc">To be confirmed</span>
 
-These terms ("Terms") apply to your use of the PHYSIQUE app and related services ("PHYSIQUE", "the Service"), provided by **Jessen Thinkmatic** <span class="tbc">Legal form: to be confirmed</span>, CVR 45634248, <span class="tbc">Address: to be confirmed</span>, Denmark ("we", "us"). Contact: **support@physique.app**.
+These terms ("Terms") apply to your use of the PHYSIQUE app and related services ("PHYSIQUE", "the Service"), provided by **Jessen Thinkmatic** <span class="tbc">Legal form: to be confirmed</span>, CVR 45634248, <span class="tbc">Address: to be confirmed</span>, Denmark ("we", "us"). Contact: **support@jessenthinkmatic.dk**.
 
 By creating an account you accept these Terms. Please also read our **Privacy Policy**, **Health Disclaimer** and **AI Disclosure**, which form part of these Terms.
 
@@ -156,7 +156,7 @@ You may stop using PHYSIQUE and delete your account at any time. We may terminat
 ## 14. Governing law and complaints
 
 - These Terms are governed by **Danish law**. If you are a consumer living in another EU/EEA country, you also keep the protection of the mandatory consumer law of your country.
-- Please contact us first at **support@physique.app** – we want to fix problems.
+- Please contact us first at **support@jessenthinkmatic.dk** – we want to fix problems.
 - Consumers can complain to the **Danish Consumer Complaints Board (Forbrugerklagenævnet)** via **Nævnenes Hus**, www.naevneneshus.dk, or get guidance at www.forbrug.dk.
 - Disputes may be brought before the Danish courts; as a consumer you may also sue in the courts of your home country where the law allows.
 
@@ -170,4 +170,4 @@ If you use PHYSIQUE on an Apple device: these Terms are between you and Jessen T
 
 ## 16. Contact
 
-Jessen Thinkmatic, CVR 45634248 <span class="tbc">Address: to be confirmed</span> – **support@physique.app**
+Jessen Thinkmatic, CVR 45634248 <span class="tbc">Address: to be confirmed</span> – **support@jessenthinkmatic.dk**

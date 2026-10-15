@@ -61,7 +61,7 @@ function stripMarked(src, open, close, file, onMatch) {
 }
 
 function clean(md, lang, file) {
-  let s = md;
+  let s = md.split('support@physique.app').join('support@jessenthinkmatic.dk');
   // HTML editorial comments
   s = s.replace(/<!--([\s\S]*?)-->\s*/g, (_, c) => { removed.push({ file, kind: 'comment', text: c.trim() }); return ''; });
   // Draft notice blockquotes
@@ -128,12 +128,12 @@ function page(lang, key, body, { legal = false } = {}) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${title}</title>
 <meta name="description" content="${lang === 'en' ? 'PHYSIQUE – training, nutrition and progress with an AI coach. Legal documents and support.' : 'PHYSIQUE – træning, kost og fremskridt med en AI-coach. Juridiske dokumenter og support.'}">
-<link rel="alternate" hreflang="en" href="https://patrickjessen.github.io/physique-legal/${key}.html">
-<link rel="alternate" hreflang="da" href="https://patrickjessen.github.io/physique-legal/da/${key}.html">
+<link rel="alternate" hreflang="en" href="https://jessenthinkmatic.dk/physique/${key}.html">
+<link rel="alternate" hreflang="da" href="https://jessenthinkmatic.dk/physique/da/${key}.html">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="${root}style.css">
+<link rel="stylesheet" href="${root}../style.css">
 </head>
 <body>
 <header class="top">
@@ -148,7 +148,7 @@ ${legal ? `<p class="notice">${t.review}</p>\n` : ''}${body}
 </main>
 <footer class="wrap foot">
   <p>${t.foot}</p>
-  <p>© 2026 Jessen Thinkmatic · CVR 45634248 · <a href="mailto:support@physique.app">support@physique.app</a></p>
+  <p>© 2026 <a href="${root}../">Jessen Thinkmatic</a> · CVR 45634248 · <a href="mailto:support@jessenthinkmatic.dk">support@jessenthinkmatic.dk</a></p>
 </footer>
 </body>
 </html>
@@ -210,7 +210,7 @@ const extra = {
       ['What does PHYSIQUE Pro cost?', 'PHYSIQUE Pro is an auto-renewing subscription, billed monthly or yearly through your App Store account. In Denmark it costs 89 DKK per month or 899 DKK per year; prices in other countries are shown in the app and the App Store before you buy. There is no free trial. The free plan stays usable without subscribing.'],
     ],
     cancelExtra: 'On iPhone you can also go to Settings → [your name] → Subscriptions → PHYSIQUE. Deleting the app or your account does not cancel a subscription.',
-    contactTitle: 'Contact us', contactBody: 'Write to <a href="mailto:support@physique.app">support@physique.app</a> and we’ll get back to you, usually within two working days. Please include your app version and device if you’re reporting a problem.',
+    contactTitle: 'Contact us', contactBody: 'Write to <a href="mailto:support@jessenthinkmatic.dk">support@jessenthinkmatic.dk</a> and we’ll get back to you, usually within two working days. Please include your app version and device if you’re reporting a problem.',
     refunds: 'Refunds', refundsBody: 'Payments are handled by Apple, so refunds for App Store purchases are requested from Apple at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.',
     sub: 'Answers to common questions, or get in touch.',
   },
@@ -220,7 +220,7 @@ const extra = {
       ['Hvad koster PHYSIQUE Pro?', 'PHYSIQUE Pro er et abonnement, der fornyes automatisk og opkræves månedligt eller årligt via din App Store-konto. I Danmark koster det 89 kr. pr. måned eller 899 kr. pr. år; priser i andre lande vises i appen og i App Store, før du køber. Der er ingen gratis prøveperiode. Den gratis plan kan bruges uden abonnement.'],
     ],
     cancelExtra: 'På iPhone kan du også gå til Indstillinger → [dit navn] → Abonnementer → PHYSIQUE. Sletning af appen eller din konto opsiger ikke abonnementet.',
-    contactTitle: 'Kontakt os', contactBody: 'Skriv til <a href="mailto:support@physique.app">support@physique.app</a>, så vender vi tilbage, som regel inden for to hverdage. Skriv gerne din appversion og enhed, hvis du melder en fejl.',
+    contactTitle: 'Kontakt os', contactBody: 'Skriv til <a href="mailto:support@jessenthinkmatic.dk">support@jessenthinkmatic.dk</a>, så vender vi tilbage, som regel inden for to hverdage. Skriv gerne din appversion og enhed, hvis du melder en fejl.',
     refunds: 'Refusion', refundsBody: 'Betalingen håndteres af Apple, så refusion for køb i App Store søges hos Apple på <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.',
     sub: 'Svar på almindelige spørgsmål – eller kontakt os.',
   },
@@ -253,5 +253,5 @@ for (const lang of ['en', 'da']) {
   const dir = lang === 'en' ? outDir : path.join(outDir, 'da');
   for (const key of ['index', 'support']) fs.writeFileSync(path.join(dir, `${key}.html`), page(lang, key, out[lang][key]));
 }
-fs.writeFileSync(path.join(outDir, '..', 'removed-notes.json'), JSON.stringify(removed, null, 1));
+if (process.env.NOTES_OUT) fs.writeFileSync(process.env.NOTES_OUT, JSON.stringify(removed, null, 1));
 console.log('removed items:', removed.length);
