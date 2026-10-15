@@ -2,7 +2,9 @@
 
 Company website for **Jessen Thinkmatic** (CVR 45634248, Denmark). It also hosts the public legal and support pages for **PHYSIQUE** (iOS app "Physique: AI Fitness Coach").
 
-GitHub Pages serves it from the `main` branch root on the custom domain **https://jessenthinkmatic.dk** (see `CNAME`). DNS is managed at Simply.com.
+Repo: `PatrickJessen/physique-legal`. GitHub Pages serves it from the `main` branch root on the custom domain **https://jessenthinkmatic.dk** (see `CNAME`). DNS is managed at Simply.com.
+
+> Note: a separate Danish portfolio site already exists in `PatrickJessen/jessenthinkmatic.dk` (Pages, no custom domain). Only one repo can hold the domain. If the portfolio should be the company root instead, move `physique/` (plus `style.css` as `physique/style.css`) into that repo, move `CNAME` there and remove it here.
 
 | Page | English | Danish |
 |---|---|---|
